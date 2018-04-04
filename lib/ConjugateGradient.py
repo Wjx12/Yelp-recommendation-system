@@ -1,4 +1,3 @@
-
 import numpy as np
 # from scipy.sparse.linalg import svds
 # from math import sqrt
@@ -11,7 +10,6 @@ from scipy.optimize import minimize
 from numpy import linalg as LA
 import random 
 random.seed(3)
-
 
 X = pd.read_csv('rating.csv')
 X.index = X.iloc[:,0]
