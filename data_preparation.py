@@ -36,8 +36,6 @@ X = pd.pivot_table(rev_biz_usr, index='business_id', columns='user_id', values='
 X.to_csv('rating.csv')
 
 
-
-
 ###parameters setting
 city_name = 'Las Vegas'
 business_filter = 500
